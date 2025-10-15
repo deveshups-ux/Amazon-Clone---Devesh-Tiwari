@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+  height: 60px;
+  width: 100%;
+  background-color: #0f1111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 2px solid black;
+  /* flex-wrap: wrap; */
+}
+
+.nav-left {
+  height: 60px;
+  width: 360px;
+  display: flex;
+  justify-content: space-evenly;
+  /* justify-content: center; */
+  align-items: center;
+  border: 2px solid black;
+  /* position: fixed;
+  left: 0px;
+  margin: 10px; */
+}
+
+.nav-logo {
+  height: 40px;
+  width: 120px;
+  background-image: url("/image\ copy\ 2.png");
+  background-size: cover;
+  border: 2px solid black;
+}
+
+/* div {
+  display: inline-block;
+} */
+
+.nav-location {
+  color: white;
+  width: 205px;
+  height: 60px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+}
+
+.nav-search {
+  height: 60px;
+  width: 700px;
+  border: 2px solid black;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+#items {
+  height: 42px;
+  width: 55px;
+}
+
+input {
+  height: 40px;
+  width: 580px;
+}
+
+#search {
+  height: 40px;
+  width: 38px;
+  background-color: orange;
+}
+
+.s2 {
+  color: antiquewhite;
+}
+
+.box2 {
+  height: 50px;
+  width: 115px;
+  color: white;
+  font-size: 12px;
+  border: 2px solid black;
+}
+
+.box3 {
+  height: 50px;
+  width: 80px;
+  color: white;
+  font-size: 10px;
+  border: 2px solid black;
+}
+
+.box4 {
+  height: 50px;
+  width: 75px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+}
+
+.nav-tools {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 2px solid black;
+}
+
+#india {
+  color: white;
+}
+
+#items {
+  background-color: bisque;
+}
+
+div:hover {
+  border: 2px solid red;
+}
+
+.down-nav {
+  height: 40px;
+  width: 100%;
+  background-color: #0f1111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  color: white;
+  justify-content: flex-start;
+  justify-content: space-evenly;
+  text-transform: capitalize;
+  /* flex-grow: inherit; */
+}
+
+/* .op1,
+.op2,
+.op3 {
+  display: inline-block;
+} */
+
+.op2 {
+  justify-content: space-evenly;
+  display: flex;
+}
+
+a {
+  display: inline-block;
+}
